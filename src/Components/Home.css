@@ -1,0 +1,47 @@
+.Name {
+
+    position: relative;
+    font-weight: normal;  
+}
+
+.Greatings{
+    margin: -3px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.HomeFormat{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
+    
+}
+  
+.HomeText{
+    font-size: calc(20px + 2vmin);
+    display: flex;
+    flex-direction: column;
+    min-width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+.ContactsFormat{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-size: calc(10px + 2vmin);
+    max-width: 100%;
+    border-style: solid;
+
+}
+.pEmail{
+    display: flex;
+    flex-direction: column;
+    margin-right: 27.5%;
+    
+}
+.sEmail{
+    position: relative;
+    
+
+}

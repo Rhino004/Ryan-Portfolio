@@ -1,0 +1,35 @@
+.TextPhoto{
+  
+  display: flex;
+  flex-direction: row;
+}
+.Text{
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+}
+.Background {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.Name {
+  position: relative;
+  font-weight: normal;
+
+}
+.Greatings{
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+.Border{
+  min-height: 6vh;
+  min-width: 100vh;
+}

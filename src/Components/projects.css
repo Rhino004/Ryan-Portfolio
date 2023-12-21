@@ -1,0 +1,11 @@
+.Format-Ver{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-style: solid;
+}
+.Format-Hor{
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+}
