@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Ryan-Portfolio/static/css/main.69d14bfe.css",
-    "main.js": "/Ryan-Portfolio/static/js/main.3a943e09.js",
+    "main.js": "/Ryan-Portfolio/static/js/main.24f3b59f.js",
     "static/js/787.28cb0dcd.chunk.js": "/Ryan-Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/CSULB_Logo.jpg": "/Ryan-Portfolio/static/media/CSULB_Logo.370e35f1ac0d40b30b8c.jpg",
     "static/media/Bird_pic.jpg": "/Ryan-Portfolio/static/media/Bird_pic.a38321bfa31dd47c3424.jpg",
     "index.html": "/Ryan-Portfolio/index.html",
     "main.69d14bfe.css.map": "/Ryan-Portfolio/static/css/main.69d14bfe.css.map",
-    "main.3a943e09.js.map": "/Ryan-Portfolio/static/js/main.3a943e09.js.map",
+    "main.24f3b59f.js.map": "/Ryan-Portfolio/static/js/main.24f3b59f.js.map",
     "787.28cb0dcd.chunk.js.map": "/Ryan-Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69d14bfe.css",
-    "static/js/main.3a943e09.js"
+    "static/js/main.24f3b59f.js"
   ]
 }
