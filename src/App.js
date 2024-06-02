@@ -21,8 +21,9 @@ function App() {
     
   );
 }
-/*
+
 export default App;
+/*
 let Component
 switch(window.location.pathname){
   case "/":
