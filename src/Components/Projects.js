@@ -7,7 +7,7 @@ const Projects = () => {
     <div className = 'Background'>
         <section className = 'Format-Hor'>
           <p className='Format-Ver'>
-            test
+            this website your on right now
           </p>
         </section>
     </div>
