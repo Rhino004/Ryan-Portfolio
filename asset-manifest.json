@@ -1,17 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.69d14bfe.css",
-    "main.js": "/static/js/main.b6f9bed0.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "main.js": "/static/js/main.d35a3a82.js",
     "static/media/CSULB_Logo.jpg": "/static/media/CSULB_Logo.370e35f1ac0d40b30b8c.jpg",
     "static/media/Bird_pic.jpg": "/static/media/Bird_pic.a38321bfa31dd47c3424.jpg",
     "index.html": "/index.html",
     "main.69d14bfe.css.map": "/static/css/main.69d14bfe.css.map",
-    "main.b6f9bed0.js.map": "/static/js/main.b6f9bed0.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.d35a3a82.js.map": "/static/js/main.d35a3a82.js.map"
   },
   "entrypoints": [
     "static/css/main.69d14bfe.css",
-    "static/js/main.b6f9bed0.js"
+    "static/js/main.d35a3a82.js"
   ]
 }
