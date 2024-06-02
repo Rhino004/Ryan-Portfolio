@@ -24,7 +24,7 @@ const Home = () => {
       <Contacts/>
     
     </>
-  )
+  );
 }
 
 export default Home;

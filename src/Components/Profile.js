@@ -88,7 +88,7 @@ const Profile = () => {
       </header>
       <Contacts/>
     </>
-  )
+  );
 }
 
 export default Profile;

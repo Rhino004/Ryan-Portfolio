@@ -14,7 +14,7 @@ const Projects = () => {
     <Contacts/>
       
     </>
-  )
+  );
 }
 
 export default Projects;
