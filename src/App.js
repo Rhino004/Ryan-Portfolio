@@ -13,7 +13,7 @@ function App() {
     <Router>
       <header className="Border"><Tabs/></header>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="" element={<Home />} />
         <Route path="/Profile" element={<Profile />} />
         <Route path="/Projects" element={<Projects />} />
       </Routes>
