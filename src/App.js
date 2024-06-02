@@ -21,12 +21,14 @@ export default App;
 let Component
 switch(window.location.pathname){
   case "/":
-    Component = Home
+    Component = Home;
     break
   case "/Profile":
-    Component = Profile
+    Component = Profile;
     break
   case '/Projects':
-    Component = Projects 
-
+    Component = Projects;
+    break; 
+  default:
+    Component = Home;
 }
