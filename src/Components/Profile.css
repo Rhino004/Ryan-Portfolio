@@ -15,18 +15,18 @@
 }
 .Left{
     
-    min-width: 18%;
-    max-width: 18%;
+    min-width: 18vw;
+    max-width: 18vw;
     margin-bottom: -.1%;
 }
 .Left_A{
     margin-bottom: -.1%;
     
-    min-width: 31.5%;
-    max-width: 31.5%;
+    min-width: 31vw;
+    max-width: 31vw;
 }
 .Right{
-    min-width: 23%;
+    min-width: 23vw;
 
 }
 .Logo{

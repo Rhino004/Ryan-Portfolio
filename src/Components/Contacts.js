@@ -3,7 +3,7 @@ import './Home.css'
 //phone website is fucked bc of landscape
 const Contacts = () => {
   return (
-    <div>
+    <div className = 'ContactBackground'>
       <h1 >Contacts</h1>
       <div className = 'ContactsFormat'>
         <p className = 'pEmail'>
