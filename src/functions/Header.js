@@ -20,7 +20,7 @@ export default function Tabs() {
         <Link className = 'ButtonSize' to= '/'><Button text = 'Home'/></Link>
         <Link className = 'ButtonSize' to= '/Profile'><Button  text = 'Profile'/></Link>
         <Link className = 'ButtonSize' to= '/Projects'><Button text ='Projects'/></Link>
-        <Link className = 'ButtonSize' ><Button onClick = {scroll} text = 'Contacts'/> </Link>
+        <Link className = 'ButtonSize' ><Button onClick = {scroll} text = 'Contact'/> </Link>
     </nav>
     
   )
