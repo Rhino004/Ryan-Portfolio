@@ -7,7 +7,7 @@ import {isMobile} from 'react-device-detect';
 export default function Tabs() {
   if (isMobile) {
     return(
-      <nav className = 'Tabs'>
+      <nav className = 'Tabs-mobile'>
         <Link className = 'ButtonSize' to= '/'><Button text = 'Home'/></Link>
         <Link className = 'ButtonSize' to= '/Profile'><Button  text = 'Profile'/></Link>
         <Link className = 'ButtonSize' to= '/Projects'><Button text ='Projects'/></Link>

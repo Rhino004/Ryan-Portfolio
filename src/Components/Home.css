@@ -16,7 +16,7 @@
     margin-right: 2%;
     
 }
-  
+
 .HomeText{
     font-size: calc(20px + 2vmin);
     display: flex;
@@ -37,11 +37,15 @@
 .pEmail{
     display: flex;
     flex-direction: column;
-    margin-right: 27.5%;
+    position: relative;
+    min-width: 50%;
     
 }
 .sEmail{
+    display: flex;
+    flex-direction: column;
     position: relative;
-    
+    min-width: 50%;
+
 
 }
