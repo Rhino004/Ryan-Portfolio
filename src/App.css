@@ -11,6 +11,7 @@
 .Background {
   background-color: black;
   min-height: 100vh;
+  min-width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,5 +32,5 @@
 }
 .Border{
   min-height: 6vh;
-  min-width: 100vh;
+  min-width: 100vw;
 }
