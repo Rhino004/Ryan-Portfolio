@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5bea8417.css",
-    "main.js": "/static/js/main.aabfda38.js",
+    "main.css": "/static/css/main.d5f08d02.css",
+    "main.js": "/static/js/main.acc21fe0.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/CSULB_Logo.jpg": "/static/media/CSULB_Logo.370e35f1ac0d40b30b8c.jpg",
     "static/media/Bird_pic.jpg": "/static/media/Bird_pic.a38321bfa31dd47c3424.jpg",
     "static/media/Disneyland.jpg": "/static/media/Disneyland.3585152e811c05cac00c.jpg",
     "index.html": "/index.html",
-    "main.5bea8417.css.map": "/static/css/main.5bea8417.css.map",
-    "main.aabfda38.js.map": "/static/js/main.aabfda38.js.map",
+    "main.d5f08d02.css.map": "/static/css/main.d5f08d02.css.map",
+    "main.acc21fe0.js.map": "/static/js/main.acc21fe0.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bea8417.css",
-    "static/js/main.aabfda38.js"
+    "static/css/main.d5f08d02.css",
+    "static/js/main.acc21fe0.js"
   ]
 }
