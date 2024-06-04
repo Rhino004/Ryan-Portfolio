@@ -2,6 +2,7 @@ import './Home.css'
 import Contacts from '../Components/Contacts';
 import '../App.css';
 import Bird from './Bird_pic.jpg'
+import Me from './Disneyland.jpg'
 
 
 
@@ -17,7 +18,7 @@ const Home = () => {
               </h1>
           </section>
           
-          <img src={Bird} alt = "Bird_pic" style = {{height: 'calc(100px + 55vmin)', width: 'calc(60px + 50vmin)'}} />
+          <img src={Me} alt = "Bird_pic" style = {{height: 'calc(100px + 55vmin)', width: 'calc(60px + 50vmin)'}} />
         </section>
 
       </header>

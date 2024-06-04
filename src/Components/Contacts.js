@@ -1,5 +1,6 @@
 import './Home.css'
 
+//phone website is fucked bc of landscape
 const Contacts = () => {
   return (
     <div>
