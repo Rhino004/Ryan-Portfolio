@@ -31,7 +31,6 @@
     flex-direction: row;
     font-size: calc(10px + 2vmin);
     max-width: 100%;
-    border-style: solid;
 
 }
 .pEmail{
