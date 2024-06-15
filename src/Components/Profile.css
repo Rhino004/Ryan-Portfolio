@@ -5,6 +5,7 @@
     flex-direction: column;
     font-size: calc(10px + 2vmin);
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 .Information{
     color: white;
@@ -28,5 +29,44 @@
     flex-direction: column;
     min-width: 25vw;
     max-width: 25vw; 
-    border-style: solid;
+}
+
+.MLogo{
+    display: flex;
+    flex-direction: column;
+    min-width: 35vw;
+    max-width: 35vw; 
+
+}
+
+.MFormat{
+    display: flex;
+    flex-direction: row;
+}
+.MText{
+    display: flex;
+    flex-direction: column;
+    min-width: 50vw;
+    text-wrap: balance;
+}
+
+.MText2{
+    display: flex;
+    flex-direction: column;
+    min-width: 25vw;
+    text-wrap: balance;
+}
+
+.MText3{
+    display: flex;
+    flex-direction: column;
+    min-width: 33vw;
+    
+}
+
+.MText4{
+    display: flex;
+    flex-direction: column;
+    min-width: 15vw;
+    
 }

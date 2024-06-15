@@ -6,20 +6,12 @@ const Button = ({href,text, onClick}) => {
   if (isMobile)
   {
     return (
-      <button 
-      className='btn_mobile'
-      onClick = {onClick}>
-        {text}
-        </button>
+      <button className='btn_mobile'onClick = {onClick}>{text}</button>
     )
   }
 
   return (
-    <button 
-    className='btn'
-    onClick = {onClick}>
-      {text}
-      </button>
+    <button className='btn'onClick = {onClick}>{text}</button>
   )
 }
 
