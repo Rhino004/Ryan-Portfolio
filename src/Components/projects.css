@@ -1,11 +1,27 @@
-.Format-Ver{
+.Background2{
+    background-color: rgb(3, 6, 22);
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    border-style: solid;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
 }
-.Format-Hor{
-    border-style: solid;
+.Title{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+.Description{
+    display: flex;
+    flex-direction: column;
+    
+    min-width: 50vw;
+    max-width: 50vw;
+    text-wrap: balance;
+}
+.Format{
     display: flex;
     flex-direction: row;
 }

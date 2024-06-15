@@ -13,75 +13,34 @@ const Profile = () => {
       <header className="Background2">
         <section> Information</section>
         <section className = 'Information'>
-          <p className = 'Left'>
-            Full Name: <br/>
-            Birth Date: <br/>
-           
-          </p>
-
-          <p className = 'Left_A'>
-            Ryan Ottoniel Tomas<br/>
-            October 30, 2002 <br/>
-           
-          </p>
-
-          <p className = 'Right'>
-            High School Graduation:
-          
-          </p>
-
-          <p>
-            2021<br/>
-          </p>
-          
+          <p className = 'Content'>Full Name: </p>
+          <p className='Content'>Ryan Ottoniel Tomas</p>
+          <p className='Content'> High School Graduation:</p>
+          <p className='Content'>2021</p>
         </section>
 
         <section className='Information'>
-          <p className = 'Left'>
-
-              Race:
-            </p>
-
-            <p className = 'Left_A'> 
-              Hispanic
-            </p>
-
-            <p className = 'Right'>
-
-              Known Coding languages: 
-            </p>
-
-            <p>
-
-              {Coding_lang}
-            </p>
-
+          <p className = 'Content'>Race:</p>
+          <p className = 'Content'> Hispanic</p>
+          <p className = 'Content'>Known Coding languages: </p>
+          <p className = 'Content'>{Coding_lang}</p>
         </section>
         
 
         <section className = 'Information'>
-          <p className = 'Left'>
-            School Attending:<br/>
-          </p>
+          <p className = 'Content'>School Attending:</p>
+          <p className = 'Content'>California State University Long Beach</p>
 
-          <p className = 'Left_A'>
-          California State University Long Beach<br/>
-           <img src={csulb} alt = "CSULB_Logo" style = {{height: '75%', width: '50%'}} /><br/>
-
-          </p>
-
-          <p className = 'Right'>
-          Graduation year: <br/>
-          Major: 
-          </p>
-          <p>
-             2025<br/>
-             Computer Science
-
-          </p>
-            
+          <p className = 'Content'> Graduation year:</p>
+          <p className='Content'>2025</p>
+          <p className='Content'>Major:</p>
+          <p className = 'Content'>Computer Science</p>
         </section>
-
+      <section className='Information'>
+        <p className = 'Logo'><img src={csulb} alt = "CSULB_Logo" style = {{height: '100%', width: '100%'}} /></p>
+        <p className='Content'>Major:</p>
+        <p className = 'Content'>Computer Science</p>
+      </section>
 
 
 

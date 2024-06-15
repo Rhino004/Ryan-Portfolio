@@ -1,5 +1,5 @@
 .Background2{
-    background-color: black;
+    background-color: rgb(3, 6, 22);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -13,22 +13,20 @@
     flex-direction: row;
     top: 60px;
 }
-.Left{
-    
-    min-width: 18vw;
-    max-width: 18vw;
-    margin-bottom: -.1%;
-}
-.Left_A{
-    margin-bottom: -.1%;
-    
-    min-width: 31vw;
-    max-width: 31vw;
-}
-.Right{
-    min-width: 23vw;
 
+.Content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -.1%;
+    min-width: 25vw;
+    max-width: 25vw; 
+    text-wrap: balance;
 }
+
 .Logo{
-    margin-top: -24%;
+    display: flex;
+    flex-direction: column;
+    min-width: 25vw;
+    max-width: 25vw; 
+    border-style: solid;
 }
