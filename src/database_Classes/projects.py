@@ -1,17 +1,18 @@
 from backend.config import db
 from datetime import date
 from sqlalchemy.orm import relationship, Mapped, mapped_column
-from typing import list
+#from typing import List
 
 
 class Projects(db.Model):
-    __tablename__ = 'projects'
+    __tablename__ = 'Projects'
     id: Mapped[int] = mapped_column(primary_key=True)
     name: Mapped[str] = mapped_column(db.String(50), primary_key=True)
     description: Mapped[str] = mapped_column(db.String(200), nullable=False)
     program_language: Mapped[str] = mapped_column(db.String(50), nullable=False)
     personal: Mapped[bool] = mapped_column(db.Boolean, nullable=False)
     team: Mapped[bool] = mapped_column(db.Boolean, nullable=False)
+    link: Mapped[str] = mapped_column(db.String(200), nullable=True)
     start_date: Mapped[date] = mapped_column(db.Date, nullable=False)
     end_date: Mapped[date] = mapped_column(db.Date, nullable=True)
     status: Mapped[str] = mapped_column(db.String(30), nullable=False)
@@ -25,6 +26,7 @@ class Projects(db.Model):
             'program_language': self.program_language,
             'personal': self.personal,
             'team': self.team,
+            'link': self.link,
             'start_date': self.start_date.isoformat(),
             'end_date': self.end_date.isoformat(),
             'status': self.status

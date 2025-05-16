@@ -1,4 +1,10 @@
-from database_Classes import Projects
+import sys
+import os
+
+# Add the parent of the current file's directory (which is src/)
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from database_Classes.projects import Projects
 from flask import request, jsonify
 from config import app, db
 from datetime import date
@@ -28,7 +34,7 @@ def update_project():
     db.session.commit()
     return jsonify(project.to_json()), 200
 
-@app.create('/add_project', methods=['POST'])
+@app.route('/add_project', methods=['POST'])
 def add_project():
     data = request.get_json()
     new_project = Projects(
