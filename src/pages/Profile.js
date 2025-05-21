@@ -1,5 +1,5 @@
 import React from 'react'
-import Contacts from './Contacts'
+import Contacts from '../Components/Contacts'
 import './Profile.css'
 import csulb from "./CSULB_Logo.jpg"
 import {isMobile} from 'react-device-detect';
