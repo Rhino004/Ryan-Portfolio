@@ -6,12 +6,12 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import './App.css';
 //Ignore the 6 high severity vulnerabillities
-
+//<header className="Border"><Tabs/></header>
 
 function App() {
   return (
     <Router>
-      <header className="Border"><Tabs/></header>
+      
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/Profile" element={<Profile />} />

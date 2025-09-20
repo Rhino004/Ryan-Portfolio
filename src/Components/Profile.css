@@ -1,21 +1,35 @@
 .Background2{
-    background-color: rgb(3, 6, 22);
-    min-height: 100vh;
+    background-color: rgb(5, 14, 44);
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
-    font-size: calc(10px + 2vmin);
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
 .Information{
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: row;
     top: 60px;
 }
+.table{
+    font-size: x-large;
+    min-width: 100vw;
+    max-width: 100vw;
+    
+}
+.row{
+    font-size: calc(10px + 2vmin);
+    border-bottom: solid;
+    border-style: white;
+    justify-content: center;
+    padding-bottom: 1%;
+
+}
 
 .Content{
+    
     display: flex;
     flex-direction: column;
     margin-bottom: -.1%;
@@ -25,6 +39,7 @@
 }
 
 .Logo{
+    
     display: flex;
     flex-direction: column;
     min-width: 25vw;
@@ -32,6 +47,7 @@
 }
 
 .MLogo{
+    
     display: flex;
     flex-direction: column;
     min-width: 35vw;

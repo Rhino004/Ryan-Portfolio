@@ -1,12 +1,14 @@
 import '../Components/Home.css'
 import '../App.css';
 import Me from '../Components/Disneyland.jpg'
+import Tabs from "../functions/Header";
 
 
 
 const Home = () => {
   return (
     <>
+      <header><Tabs/></header>
       <header className="Background"> 
         <section className = "HomeFormat" >
           <section className = 'HomeText'>
