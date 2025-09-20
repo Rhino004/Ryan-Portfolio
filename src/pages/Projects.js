@@ -1,6 +1,5 @@
 import React from 'react'
-import Contacts from '../Components/Contacts'
-import './projects.css'
+import '../Components/projects.css'
 const Projects = () => {
   return (
     <>
@@ -19,7 +18,6 @@ const Projects = () => {
           <p className='Description'> This website is made by using react Js and my code on how it's made is on github the nav bar is made by using react-router-dom</p>
         </section>
     </div>
-    <Contacts/>
       
     </>
   );
