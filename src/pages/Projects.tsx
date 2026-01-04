@@ -15,20 +15,20 @@ const projects = [
     description: "A responsive portfolio website built with React and TypeScript to showcase my skills and projects.",
   },
   {
-    name: "Task Management App",
-    description: "A full-stack task management application with user authentication and CRUD operations.",
+    name: "Class Scheduler Website",
+    description: "A full-stack website that was worked on as a team to help students schedule their classes effectively.",
   },
   {
-    name: "Weather Dashboard",
-    description: "A weather application that fetches real-time data from APIs and displays forecasts with interactive charts.",
+    name: "Face Detection",
+    description: "A face detection application using OpenCV and Python.",
   },
   {
-    name: "Data Structures Library",
-    description: "Implementation of common data structures in C++ including linked lists, trees, and graphs.",
+    name: "A Database that holds project information",
+    description: "A database system designed to store and manage project-related data efficiently with the use of SQL.",
   },
   {
-    name: "Python Automation Scripts",
-    description: "Collection of Python scripts for automating repetitive tasks and data processing.",
+    name: "War card game",
+    description: "A simple implementation of the classic War card game using C++ and object-oriented programming principles.",
   },
 ];
 
